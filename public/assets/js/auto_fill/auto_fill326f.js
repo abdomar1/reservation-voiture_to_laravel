@@ -1,1 +1,0 @@
-"use strict";$(document).ready((function(){$(".sadmin-login").click()})),window.changeCredentials=function(n,c){$("#email").val(n),$("#password").val(c)},$(document).on("click",".sadmin-login",(function(){changeCredentials("sadmin@vcard.com","123456")})),$(document).on("click",".admin-login",(function(){changeCredentials("admin@vcard.com","123456")}));
